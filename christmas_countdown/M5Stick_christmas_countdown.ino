@@ -2,7 +2,7 @@
 #include "WiFi.h" // include the WiFi library for NTP
 #include <time.h> // include time.h for struct tm
 
-const char* ssid = "SSID your-wifi-SSID"; // replace with your WiFi
+const char* ssid = "your-wifi-SSID"; // replace with your WiFi SSID
 const char* password = "your-wifi-password"; // replace with your WiFi password
 
 #define TIMEZONE  1 // GMT+1, set your own time zone
